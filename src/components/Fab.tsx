@@ -11,6 +11,8 @@ interface Props {
 
 export const Fab = ({ title, onPress, position = 'br' }: Props) => {
 
+
+    // Ejemplo de Codigo especifico para IOS
     // const ios = () => {
     //     return (
     //         <TouchableOpacity
@@ -48,7 +50,7 @@ export const Fab = ({ title, onPress, position = 'br' }: Props) => {
 
 
     return (
-
+        // Codigo especifico para IOS 👈👆
         //return ( Platform.OS === 'ios() : android() );
 
         <View style={[
